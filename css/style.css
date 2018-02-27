@@ -1,7 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: Raleway, 微軟正黑體, san-serif;
+	font-family: Barlow, 微軟正黑體, san-serif;
 }
 
 a{
@@ -237,7 +237,7 @@ a{
 .box1 > div > h3, .box2 > div > h3 , .box3 > div > h3, .box4 > div > p, .box5  > div > h3, .box6 > div > p{
 	margin-top: 0 !important;
 	line-height: 300px;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .box1 > div:hover, .box2 > div:hover, .box3 > div:hover, .box4 > div:hover, .box5 > div:hover, .box6 > div:hover{
@@ -407,7 +407,7 @@ a{
 
 .web2 h3, .web3 h3{
 padding-top: 25px;
-font-weight: 700;
+font-weight: 500;
 letter-spacing: 0.15em;
 }
 
@@ -653,8 +653,8 @@ letter-spacing: 0.15em;
 	position: absolute;
 	top: 230px;
 	left: 50%;
-    transform: translateX(-49%);
-    width: 43vw;
+   	transform: translateX(-40%);
+   	width: 53vw;
 	}
 
 	.links ul li img{
@@ -720,9 +720,13 @@ letter-spacing: 0.15em;
 	}
 
 	.web2 h3, .web3 h3 {
-    padding-top: 0;
+    padding: 0 10px;
     margin-top: -10px;
-	}	
+	}
+	
+	.footer{
+	margin-left: 18px;
+	}
 
 	.info p{
 	padding: 0 10px;
