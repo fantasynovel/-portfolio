@@ -709,6 +709,10 @@ letter-spacing: 0.15em;
 	.box7, .box8, .box9{
 	height: 300px;
 	}
+	
+	.web1 h3{
+	padding: 0 20px;
+	}
 
 	.web1 h3 img{
 	padding-top: 0;
