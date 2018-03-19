@@ -1,7 +1,11 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: Raleway, 微軟正黑體, san-serif;
+	font-family: Barlow, 微軟正黑體, san-serif;
+}
+
+.container-fluid{
+	overflow-x: hidden;
 }
 
 a{
@@ -23,7 +27,7 @@ a{
 
 .menu{
 	float: right;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .menu ul li,
@@ -59,17 +63,17 @@ a{
 }
 
 .dropMenu{
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 2;
 	text-align: center;
 	letter-spacing: 3px;
 	width: 100vw;
 	height: auto;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.9);
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px 0px;
 	color: rgba(0, 0, 0, 0.6);
 	position: absolute;
-	top: -137px;
+	top: -200px;
 	z-index: 10;
 	transition: top 0.3s;
 }
@@ -107,10 +111,10 @@ a{
 }
 
 @keyframes rotation{
-	from{
+	0%, 100%{
 		transform: rotate(0deg);
 	}
-	to{
+	50%{
 		transform: scale(1.1) rotate(-5deg);
 	}
 }
@@ -237,7 +241,7 @@ a{
 .box1 > div > h3, .box2 > div > h3 , .box3 > div > h3, .box4 > div > p, .box5  > div > h3, .box6 > div > p{
 	margin-top: 0 !important;
 	line-height: 300px;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .box1 > div:hover, .box2 > div:hover, .box3 > div:hover, .box4 > div:hover, .box5 > div:hover, .box6 > div:hover{
@@ -353,7 +357,7 @@ a{
 
 .web1 p{
 	line-height: 2;
-	font-size: 18px;
+	font-size: 20px;
 	color: #fff;
 }
 
@@ -363,7 +367,7 @@ a{
 }
 
 .web1 img{
-	padding: 30px 0;
+	padding: 10px 0 25px 0;
 	width: 250px;
 }
 
@@ -407,7 +411,7 @@ a{
 
 .web2 h3, .web3 h3{
 padding-top: 25px;
-font-weight: 700;
+font-weight: 400;
 letter-spacing: 0.15em;
 }
 
@@ -434,8 +438,61 @@ letter-spacing: 0.15em;
 	background-size: contain;
 }
 
+/*ui design*/
+.uiWork1 img{
+	height: 600px;
+	padding-top: 20px;
+}
+
+.ui h3{
+	font-size: 35px;
+	color: #888;
+	letter-spacing: 0.05em;
+	padding-bottom: 30px;
+}
+
+.uiWork1 p{
+	line-height: 2;
+	font-size: 20px;
+	padding: 0 110px 20px 110px;
+}
+.uiWork1 h3{
+	font-size: 24px;
+	color: #555;
+	letter-spacing: 0.05em;
+	padding-bottom: 25px;
+}
+
+.btn5{
+	padding-top: 20px;
+}
+
+.btn5 button{
+	border: none;
+	border-radius: 5px;
+	background-image: linear-gradient(to right, #48c6ef 0%, #6f86d6 100%);
+	height: 45px;
+	margin: 0 auto;
+	padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.btn5 button:hover{
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
+	cursor: pointer;
+	transform: translateY(-5px);
+}
+
+.btn5 p{
+	color: #fff;
+	font-size: 1.5em;
+}
+
 /*hand lettering*/
-.handletter{
+.handletter, .ui{
 	padding-top: 50px;
 	text-align: center;
 }
@@ -633,7 +690,7 @@ letter-spacing: 0.15em;
 }
 
 
-/*響應式設計*/
+/*響應式設計-手機*/
 @media screen and (max-width: 767px) {
 	.banner{
 		height: 350px;
@@ -653,8 +710,8 @@ letter-spacing: 0.15em;
 	position: absolute;
 	top: 230px;
 	left: 50%;
-    transform: translateX(-49%);
-    width: 43vw;
+    transform: translateX(-40%);
+   	width: 53vw;
 	}
 
 	.links ul li img{
@@ -670,7 +727,7 @@ letter-spacing: 0.15em;
 
 	.about p{
 	padding: 5px;
-	font-size: 18px;
+	font-size: 20px;
 	}
 
 	.about h2{
@@ -710,6 +767,10 @@ letter-spacing: 0.15em;
 	height: 300px;
 	}
 
+	.web1 h3{
+	padding: 0 20px;
+	}
+
 	.web1 h3 img{
 	padding-top: 0;
 	width: 180px;
@@ -717,19 +778,194 @@ letter-spacing: 0.15em;
 
 	.web1 p{
 	padding: 0 10px;
+	font-size: 20px
 	}
 
 	.web2 h3, .web3 h3 {
-    padding-top: 0;
+    padding: 0 10px;
     margin-top: -10px;
 	}	
 
+	.footer{
+	margin-left: 18px;
+	}
+
 	.info p{
-	padding: 0 10px;
+	padding: 0 15px;
 	}
 
 	.btn3, .btn4{
 		padding-bottom: 60px;
 	}
 
+	.ui{
+		padding-top: 25px;
+	}
+	
+	.ui h3{
+		padding-bottom: 20px;
+	}
+
+	.uiWork1 h3{
+		padding: 0 10px 10px 10px;
+
+	}
+
+	.uiWork1 p{
+		font-size: 20px;
+		padding: 0px 15px;
+	}
+
+	.ui video{
+	 width: 300px;
+	}	
+
+	.uiWork1 img{
+	height: 225px;
+	padding-top: 0;
+	}
+
+}
+
+/*tablets*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.banner{
+		height: 450px;
+	}
+
+	.bannerBG{
+		height: 450px;
+	}
+
+	.banner .bgText {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35vw;
+	}
+
+	.links{
+	position: absolute;
+	top: 290px;
+	left: 50%;
+    transform: translateX(-46%);
+   	width: 28vw;
+	}
+
+	.links ul li img{
+	width: 40px;
+	}
+
+	.links ul li{
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 10px;
+	letter-spacing: 2em;
+	}
+
+	.about img{
+		top: 108px;
+		width: 200px;
+	}
+
+	.about p{
+	padding-left:25px;
+	font-size: 18px;
+	}
+
+	.about h2{
+	padding: 0;
+	}
+
+	.work{
+		margin-top: 40px;
+	}
+
+	.boxes{
+		margin: 0;
+	}
+
+	.box{
+		padding-bottom: 10px;
+	}
+
+	.box1, .box2, .box3, .box4, .box5, .box6, .box10, .box11, .box12{
+		height: 250px;
+	}
+
+	.webDesign p{
+	text-align: center;
+	font-size: 22px;
+	color: #555;
+	padding: 10px;
+	}
+
+	.web1, .web2, .web3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+	}
+
+	#btn2{
+		padding-top: 20px;
+	}
+
+	.box7, .box8, .box9{
+	height: 300px;
+	}
+
+	.web1 h3{
+	padding: 0 20px;
+	}
+
+	.web1 h3 img{
+	padding-top: 15px;
+	width: 180px;
+	}
+
+	.web1 p{
+	padding: 0 10px;
+	}
+
+	.web2 h3, .web3 h3{
+    padding: 30px 10px;
+    margin-top: -10px;
+	}
+
+	.ui h3{
+		padding-bottom: 30px;
+
+	}
+
+	.uiWork1 h3{
+	  padding-bottom: 10px;
+	}
+
+	.uiWork1 p{
+		font-size: 22px;
+		padding: 10px 15px 0 15px;
+	}
+
+	.ui video{
+	 width: 650px;
+	}	
+
+	.uiWork1 img{
+	height: 400px;
+	padding-top: 0;
+	}
+
+	.footer{
+	margin-left: 18px;
+	}
+
+	.info p{
+	padding: 0 10px;
+	}
+
+	.btn3, .btn4, .btn5{
+		padding-bottom: 60px;
+	}
+	
 }
