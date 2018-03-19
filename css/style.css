@@ -367,7 +367,7 @@ a{
 }
 
 .web1 img{
-	padding: 10px 0 25px 0;
+	padding: 30px 0 25px 0;
 	width: 250px;
 }
 
@@ -775,6 +775,10 @@ letter-spacing: 0.15em;
 	padding-top: 0;
 	width: 180px;
 	}
+	
+	.web1 img{
+	padding: 0 0 25px 0;
+	}
 
 	.web1 p{
 	padding: 0 10px;
@@ -898,12 +902,12 @@ letter-spacing: 0.15em;
 	text-align: center;
 	font-size: 22px;
 	color: #555;
-	padding: 10px;
+	padding: 10px 20px 10px 20px;
 	}
 
 	.web1, .web2, .web3 {
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: center;
 	}
 
