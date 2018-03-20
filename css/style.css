@@ -177,13 +177,14 @@ a{
 	line-height: 2;
 }
 
-.about h2{
-	font-size: 35px;
+.about h2, .work h2, .ui h2{
+	color: #666;
+	font-size: 40px;
 	letter-spacing: 0.05em;
 }
 
 .about p {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 2;
 }
 
@@ -200,19 +201,15 @@ a{
 	text-align: center;
 }
 
-.work h2{
-	font-size: 40px;
-	letter-spacing: 0.05em;
-}
-
 .work h4{
 	font-size: 35px;
 	letter-spacing: 0.05em;
 	color: #888;
+	padding-bottom: 30px;
 }
 
 .boxes{
-	margin: 20px -25% 8px 4%;
+	margin: 20px -26% 8px 4%;
 	position: relative;
 }
 
@@ -300,7 +297,6 @@ a{
 }
 
 .btn1{
-	padding-top: 35px;
 	text-align: center;
 }
 
@@ -309,7 +305,7 @@ a{
 	border-radius: 5px;
 	background-color: #5953A5;
 	height: 45px;
-	margin: 0 auto;
+	margin: 35px auto;
 	padding-left: 2em;
     padding-right: 2em;
     padding-top: 0.5em;
@@ -530,8 +526,7 @@ letter-spacing: 0.15em;
 
 .btn3{
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 70px;
+	padding: 40px 0;
 }
 
 .btn3 button{
@@ -750,12 +745,12 @@ letter-spacing: 0.15em;
 	text-align: center;
 	font-size: 20px;
 	color: #555;
-	padding: 10px;
+    padding: 10px 15px;
+    margin: 0 15px;
 	}
 
 	.web1, .web2, .web3 {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding: 20px 15px 40px 15px;
     text-align: center;
 	}
 
@@ -817,7 +812,7 @@ letter-spacing: 0.15em;
 
 	.uiWork1 p{
 		font-size: 20px;
-		padding: 0px 15px;
+		padding: 0px 20px;
 	}
 
 	.ui video{
@@ -827,6 +822,11 @@ letter-spacing: 0.15em;
 	.uiWork1 img{
 	height: 225px;
 	padding-top: 0;
+	}
+
+	.handletter{
+	padding-top: 25px;
+	text-align: center;
 	}
 
 }
@@ -896,6 +896,10 @@ letter-spacing: 0.15em;
 
 	.box1, .box2, .box3, .box4, .box5, .box6, .box10, .box11, .box12{
 		height: 250px;
+	}
+
+	.webDesign{
+		margin-top: 10px;
 	}
 
 	.webDesign p{
