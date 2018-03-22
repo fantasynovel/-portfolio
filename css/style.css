@@ -657,6 +657,7 @@ letter-spacing: 0.15em;
 .footer{
 	padding-top: 20px;
 	text-align: center;
+	transform: translateX(2.5%);
 	padding-bottom: 30px;
 }
 
@@ -828,7 +829,11 @@ letter-spacing: 0.15em;
 	padding-top: 25px;
 	text-align: center;
 	}
-
+	
+	.footer ul li,
+	.footer ul{
+	padding-right: 18px;
+	}
 }
 
 /*tablets*/
