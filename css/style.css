@@ -982,3 +982,26 @@ letter-spacing: 0.15em;
 	}
 	
 }
+
+@media screen and (min-width: 1200px) {
+	.bannerBG{
+		height: 800px;
+	}
+	.banner .bgText {
+    	width: 28vw;
+	}
+
+	.links{
+		top: 512px;
+	}
+}
+
+@media screen and (max-width: 2000px){
+	.bannerBG{
+		height: 700px;
+	}
+	.links {
+    top: 415px;
+	}
+
+}
